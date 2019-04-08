@@ -2,7 +2,7 @@
   "name": "chatbot",
   "version": "1.0.0",
   "description": "",
-  "main": "chatbot.js",
+  "main": "mobot.js",
   "scripts": {
     "test": "node test.js",
     "start": "node mobot.js",
@@ -12,10 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
     "dotenv": "^6.1.0",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2",
     "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   }
 }

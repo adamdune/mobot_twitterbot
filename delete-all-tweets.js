@@ -1,4 +1,3 @@
-// This is a dependency-less utility function
 require('dotenv').config()
 const Twit = require('twit');
 
