@@ -51,4 +51,4 @@ If there are new voice lines that have been added to the Wiki, you may want to u
   $ npm run scrape
 ```
 
-This will scrape the site for the voice line according to the rules specified in `/dota2_voice_lines/scraper.js`.
+This will scrape the Wiki for the voice lines according to the rules specified in `/dota2_voice_lines/scraper.js`.
